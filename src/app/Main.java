@@ -17,8 +17,7 @@ public class Main {
         }
 
         for (int i = 0; i < spacerLen; i++)
-            spacer += ("-");
-
+            spacer=spacer .concat("-");//call the concat method to concatenate strings
         System.out.printf("%s%n Sum of numbers is %d", spacer, sumNumbers);
     }
 }
